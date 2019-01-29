@@ -58,7 +58,7 @@ The specifications are listed below.
 
 ### Dashboard
 
-- provide a way to button that the person in charge can press everytime there is a `strike`, `ball`, `foul` or `hit`.
+- provide buttons that the person in charge can press everytime there is a `strike`, `ball`, `foul` or `hit`.
 - there is **no** need to specify the type of hit (single, double, etc).
 - changes recorded on this component should update the information shown by the `Display` component.
 

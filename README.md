@@ -20,7 +20,7 @@ Please push your code often and use descriptive commit messages, this helps you 
 
 ## Project Description
 
-In this project, you will **write unit tests and the implementation code** for a React appliation for _Baseball Stadium_ personnel. The application helps them enter information about the game and have that information shown in the _Score Board Display_ for fans to see.
+In this project, you will **write unit tests and the implementation code** for a React application for _Baseball Stadium_ personnel. The application helps them enter information about the game and have that information shown in the _Score Board Display_ for fans to see.
 
 The requirements are listed under the _Minimum Viable Product_ section below.
 
@@ -38,31 +38,34 @@ Follow these steps to setup your git _fork_ and _branch_.
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge the `<firstName-lastName>` branch into the master branch on your fork. **Please don't merge your own pull request**
-- [ ] Use GitHub's webiste to add your project manager as a reviewer on the pull-request.
+- [ ] Use GitHub's website to add your project manager as a reviewer on the pull-request.
 - [ ] Your project manager will count the project as complete by merging the branch back into the master branch of your forked repository.
 
 ## Minimum Viable Product
 
 After a set of interviews with the potential users of the solution, we gathered the following information about the desired functionality. Not all the information provided by our clients is relevant to the design of the solution, but it's included to help understand the requirements.
 
-Your job is to design and build a React application that includes at least two components: `Display` and `Dashboard`. **For the MVP you only need to record information about a player _"at bat"_**.
+Your job is to design and build a React application that includes at least two components: `Display` and `Dashboard`. **For the MVP you only need to record information about a player's _"at bat"_**.
 
 The specifications are listed below.
+
+### Count
+
+- resets both balls and strikes to 0 when a player reaches 3 strikes or 4 balls.
+- resets both balls and strikes to 0 when a hit is recorded.
 
 ### Display
 
 - display the count of `balls` and `strikes` for the at-bat.
-- resets both balls and strikes to 0 when a player reaches 3 strikes or 4 balls.
-- resets both balls and strikes to 0 when a player connects any type of hit.
 - should be updated when the user records activity on the `Dashboard` component.
 
 ### Dashboard
 
-- provide a way to button that the person in charge can press everytime there is a `strike`, `ball`, `foul` or `hit`.
+- provide a way to button that the person in charge can press every time there is a `strike`, `ball`, `foul` or `hit`.
 - there is **no** need to specify the type of hit (single, double, etc).
 - changes recorded on this component should update the information shown by the `Display` component.
 
-Feel free add other components and organize and name your components any way you want to arrive the requirements. **Make it up and make it happen developer!**.
+Feel free add other components and organize and name your components any way you want to satisfy the requirements. **Make it up and make it happen developer!**.
 
 ## Stretch Problem
 
@@ -71,5 +74,5 @@ This section is **optional** and not counted towards MVP. Start working on it af
 - Expand the solution to keep track of all the activity of a single inning. Include the number of outs and track them.
 - Expand the solution to keep track of the number of runs and errors in the inning.
 - Expand the solution to keep track of which bases are occupied and to record hits, doubles, triples and home runs.
-- Expand the solution to keep trak of all activity across all innings. Display the current inning.
+- Expand the solution to keep track of all activity across all innings. Display the current inning.
 - Work on [this repository for extra practice testing a legacy React application](https://github.com/LambdaSchool/React-Testing).
